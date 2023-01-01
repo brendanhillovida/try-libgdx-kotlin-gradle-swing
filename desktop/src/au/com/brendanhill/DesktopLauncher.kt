@@ -15,7 +15,7 @@ class DesktopLauncher : JFrame() {
     init {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
         val container: Container = getContentPane()
-        val canvas = LwjglAWTCanvas(MyGdxGame())
+        val canvas = LwjglAWTCanvas(Basic3DTest())
         container.add(JButton("test button"), BorderLayout.WEST)
         container.add(canvas.getCanvas(), BorderLayout.CENTER)
         pack()
