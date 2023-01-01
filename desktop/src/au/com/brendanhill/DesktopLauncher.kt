@@ -1,6 +1,7 @@
 package au.com.brendanhill
 
 import com.badlogic.gdx.backends.lwjgl.LwjglAWTCanvas
+import com.formdev.flatlaf.FlatLightLaf
 import java.awt.BorderLayout
 import java.awt.Container
 import javax.swing.JButton
@@ -24,5 +25,7 @@ class DesktopLauncher : JFrame() {
 }
 
 fun main(arg: Array<String>) {
+
+    FlatLightLaf.setup()
     SwingUtilities.invokeLater { DesktopLauncher() }
 }

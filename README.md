@@ -3,6 +3,7 @@ This is a demo skeleton app for embedding 3D graphics in a Java desktop applicat
 Kotlin 1.7
 JDK 17
 Swing
+FlatLightLaf
 LibGDX 1.11
 LWJGL 2
 
